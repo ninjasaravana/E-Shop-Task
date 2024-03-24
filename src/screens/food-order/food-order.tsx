@@ -21,7 +21,7 @@ const FoodOrder: React.FC = () => {
                   <h4>Total:{order.total}</h4>
                 </div>
                 <h4 className={styles.foodTitle}>{"Items"}</h4>
-                {order.items.map((item) => {
+                {order.items.map((item, idx) => {
                   return (
                     <div className={styles.cartItem}>
                       <div className={styles.cartItemDetails}>
@@ -43,7 +43,9 @@ const FoodOrder: React.FC = () => {
                           </span>
                         </div>
                       </div>
-                      <div className={styles.line}></div>
+                      {order.items[idx + 1] && (
+                        <div className={styles.line}></div>
+                      )}
                     </div>
                   );
                 })}
