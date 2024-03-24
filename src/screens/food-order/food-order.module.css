@@ -1,0 +1,104 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  padding: 16px;
+  gap: 16px;
+  box-sizing: border-box;
+  border: none;
+}
+
+a {
+  color: dodgerblue;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.breadCrumb {
+  display: flex;
+  gap: 8px;
+}
+
+.parentContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 2%;
+}
+
+.orderContainer {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 8px;
+  border: 3px solid #c1c1c1;
+}
+
+.cartItem {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 120px;
+  padding: 8px;
+  background-color: rgb(220 239 245);
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.cartItemDetails {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cartItemData {
+  display: flex;
+  gap: 8px;
+}
+
+.foodImage {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+h3,
+h4 {
+  margin: 0px 0px 8px 0px;
+}
+
+.line {
+  border: 3px solid #c1c1c1;
+  margin: 8px 0px;
+}
+
+.orderDetails {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h4 {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.foodTitle {
+  font-weight: 900;
+}
+
+.foodPrice {
+  align-content: end;
+}
+
+.noData {
+  display: flex;
+  color: royalblue;
+  width: 100%;
+  height: 250px;
+  align-items: center;
+  justify-content: center;
+  background-color: #c1c1c1;
+  border-radius: 8px;
+}

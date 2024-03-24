@@ -1,0 +1,29 @@
+.countContainer {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.updateCount {
+  width: 42px;
+  height: 40px;
+  border: 3px solid #c1c1c1;
+  font-weight: 900;
+  font-size: 20px;
+  color: rgb(85, 83, 83);
+  cursor: pointer;
+  text-align: center;
+  align-content: center;
+}
+
+.foodCount {
+  width: 86px;
+  height: 40px;
+  font-weight: 900;
+  font-size: 20px;
+  text-align: center;
+  align-content: center;
+  color: rgb(85, 83, 83);
+  border: 3px solid #c1c1c1;
+  margin: 0px;
+}
